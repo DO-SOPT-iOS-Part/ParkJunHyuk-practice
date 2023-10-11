@@ -25,11 +25,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupDelegate()
+        textFieldLayout()
+    }
+    
+    private func setupDelegate() {
         emailTextField.delegate = self
         passwordTextField.delegate = self
-        
-        textFieldLayout()
     }
     
     // MARK: - IBActions
