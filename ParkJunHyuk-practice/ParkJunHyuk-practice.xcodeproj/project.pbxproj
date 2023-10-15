@@ -13,6 +13,9 @@
 		3FCBDE492AD1241D002DAD00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCBDE472AD1241D002DAD00 /* Main.storyboard */; };
 		3FCBDE4B2AD1241E002DAD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCBDE4A2AD1241E002DAD00 /* Assets.xcassets */; };
 		3FCBDE4E2AD1241E002DAD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCBDE4C2AD1241E002DAD00 /* LaunchScreen.storyboard */; };
+		3FCBDE562AD135EF002DAD00 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBDE552AD135EF002DAD00 /* ResultViewController.swift */; };
+		3FCBDE582AD141E6002DAD00 /* GetDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBDE572AD141E6002DAD00 /* GetDataProtocol.swift */; };
+		3FCBDEA12AD524C5002DAD00 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBDEA02AD524C5002DAD00 /* TextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3FCBDE4A2AD1241E002DAD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCBDE4D2AD1241E002DAD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCBDE4F2AD1241E002DAD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCBDE552AD135EF002DAD00 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		3FCBDE572AD141E6002DAD00 /* GetDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataProtocol.swift; sourceTree = "<group>"; };
+		3FCBDEA02AD524C5002DAD00 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		3FCBDE402AD1241D002DAD00 /* ParkJunHyuk-practice */ = {
 			isa = PBXGroup;
 			children = (
+				3FCBDE9F2AD524A3002DAD00 /* Extension */,
 				3FCBDE412AD1241D002DAD00 /* AppDelegate.swift */,
 				3FCBDE432AD1241D002DAD00 /* SceneDelegate.swift */,
 				3FCBDE452AD1241D002DAD00 /* ViewController.swift */,
@@ -63,8 +70,18 @@
 				3FCBDE4A2AD1241E002DAD00 /* Assets.xcassets */,
 				3FCBDE4C2AD1241E002DAD00 /* LaunchScreen.storyboard */,
 				3FCBDE4F2AD1241E002DAD00 /* Info.plist */,
+				3FCBDE552AD135EF002DAD00 /* ResultViewController.swift */,
+				3FCBDE572AD141E6002DAD00 /* GetDataProtocol.swift */,
 			);
 			path = "ParkJunHyuk-practice";
+			sourceTree = "<group>";
+		};
+		3FCBDE9F2AD524A3002DAD00 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FCBDEA02AD524C5002DAD00 /* TextFieldExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCBDE582AD141E6002DAD00 /* GetDataProtocol.swift in Sources */,
 				3FCBDE462AD1241D002DAD00 /* ViewController.swift in Sources */,
 				3FCBDE422AD1241D002DAD00 /* AppDelegate.swift in Sources */,
+				3FCBDEA12AD524C5002DAD00 /* TextFieldExtension.swift in Sources */,
 				3FCBDE442AD1241D002DAD00 /* SceneDelegate.swift in Sources */,
+				3FCBDE562AD135EF002DAD00 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
